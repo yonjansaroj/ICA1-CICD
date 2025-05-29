@@ -1,29 +1,17 @@
-# ICA1-CICD
-# 🌦️ Weather CLI App
+# GitHub Actions Mastery Challenge – Weather App CI/CD
 
-## 🔍 Introduction
+This project is part of a hands-on challenge to evaluate our understanding of GitHub Actions. It features a browser-based weather app that uses the OpenWeather API. We implemented a CI/CD pipeline using GitHub Actions that securely injects API keys using GitHub Secrets.
 
-This project is a simple Node.js command-line application that fetches real-time weather data from the OpenWeatherMap API based on a given city name.
+## Objectives
+- Demonstrate CI/CD automation
+- Use secrets and environment variables
+- Customize GitHub Actions YAML workflows
+- Apply best practices in workflow design
 
-It is designed as a hands-on challenge for exploring **GitHub Actions** and **CI/CD practices**, with a focus on:
+## Tech Stack
+- HTML, JavaScript
+- Node.js for scripts
+- GitHub Actions for CI
 
-- Automating testing and deployment pipelines using GitHub Actions.
-- Integrating with an external API securely using **GitHub Secrets**.
-- Understanding best practices for managing environment variables and sensitive data.
-- Practicing real-world Continuous Integration workflows in a Node.js environment.
-
-> ⚠️ The OpenWeatherMap API key is required for the application to function and must be stored securely using environment variables or GitHub Secrets.
-
----
-
-## 🛠️ Technologies Used
-
-- Node.js
-- Axios (HTTP client)
-- Jest (unit testing)
-- GitHub Actions (CI/CD)
-- OpenWeatherMap API
-
----
 
 
