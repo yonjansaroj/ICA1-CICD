@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "homepage": "https://yonjansaroj.github.io/ICA1-CICD",
   "scripts": {
-    "inject": "node scripts/inject-api-key.js"
+    "inject": "node scripts/inject-api-key.js",
+    "test": "jest --reporter=json --outputFile=test-report.json"
   },
   "dependencies": {
     "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
-
