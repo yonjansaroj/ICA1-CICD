@@ -12,4 +12,11 @@
   "devDependencies": {
     "jest": "^29.7.0"
   }
+  "scripts": {
+  "test": "jest --outputFile=./test-report.json --json"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
+  }
+
 }
