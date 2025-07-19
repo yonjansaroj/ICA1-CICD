@@ -1,10 +1,9 @@
-name: Run Tests & Upload Artifact
+name: Run Tests and Upload Artifact
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
 
 jobs:
   test:
@@ -12,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
 
@@ -25,9 +24,10 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Upload test report
-        uses: actions/upload-artifact@v3
+      - name: Upload test report artifact
+        uses: actions/upload-artifact@v4
         with:
           name: test-report
-          path: ./test-report.json
+          path: test-report.json
+
 
